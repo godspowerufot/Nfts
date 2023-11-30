@@ -1,0 +1,721 @@
+body {
+  margin: 0;
+  
+  background: linear-gradient(70deg, #380333ed 0%, #7b0a7e 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background: rgba(35, 26, 26, 0.69); /* Use rgba for transparency */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Apply glassmorphism effect */
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #00bcd4;
+}
+
+/* Responsive styles */
+
+
+
+
+/* Headerpage component */
+.headerPage {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#headercontent {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 103px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7.7px;
+  background: linear-gradient(180deg, #e714d280 0%, #115ed180);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#Nfts {
+
+    /* background: linear-gradient(180deg, #E714D2 0%, #115ED1 100%); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    text-align: center;
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    line-height: normal;
+    letter-spacing: 3px;
+
+}
+
+.NFT {
+  width: 1121px;
+  height: 604px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+  background: #d9d9d9;
+  margin-top: 20px;
+  /* Apply glassmorphism effect to .NFT */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.NFT img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.chooseArt {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roc Grotesk', sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0%; /* 0px */
+  letter-spacing: 7.7px;
+}
+
+.want {
+  color: #e714d2;
+  font-family: 'Roc Grotesk', sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 7.7px;
+}
+.rectangle2 {
+
+    width: 1386.667px;
+    height: 724px;
+    display: flex;
+    flex-direction: column;
+    padding: 69px;
+    flex-shrink: 0;
+    background: rgba(2, 2, 27, 0.70);
+    align-items: center;
+    justify-content: center;
+
+}
+section{    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  flex-direction: column;
+}
+.head2 {
+  margin: 136px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.head1{
+  margin: 42px;
+  color: white;
+
+}
+.gallery{
+  color: #FFF;
+text-align: center;
+font-family: Alfa Slab One;
+font-size: 47px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 82.25px */
+letter-spacing: 7.7px;
+}
+.image {
+  width: 452.593px;
+  height: 210.973px;
+  display: flex;
+  flex-shrink: 0;
+  background-image: url("./card1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+}
+h1 .creator{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+
+}
+.header{
+  line-height: 29px;
+  color: whitesmoke;
+}
+.imagebadge p{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.rectangle3{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 81px;
+    justify-content: center;
+
+
+}
+.column p{
+  color: #FFF;
+  font-family: Roc Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190%; /* 22.8px */
+  letter-spacing: 0.2px;
+}
+.imagesscroll {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.image-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.image-list li {
+  margin-right: 10px;
+}
+
+.image-list img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-list img:hover {
+  transform: scale(1.2);
+}
+/* grid */
+
+.galleryList {
+ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-family: Roc Grotesk;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7.7px;
+
+}
+
+.gallery {
+  color: #FFF;
+text-align: center;
+font-family: Alfa Slab One;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 82.25px */
+letter-spacing: 7.7px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin: 20px;
+}
+.btndiv {
+  width: 524px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  border: 5px solid #E714D2;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle19 {
+  border-radius: 4px;
+  background: #152767;
+  width: 1066px;
+  display: flex;
+  margin-bottom: 50px;
+  height: 97px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  overflow: hidden;
+ padding:20px;
+ border-radius: 20px;
+border: 4px solid rgba(255, 255, 255, 0.26);
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(9.395333290100098px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.rectangles7 {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  width: 1386px;
+  height: 668.858px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  align-items: center;
+}
+.rectangles7 h2 {
+  color: white;
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+}
+
+.columns p{
+
+  color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.logos{
+  width: 152px;
+height: 49px;
+flex-shrink: 0;
+padding-inline: 20px;
+}
+
+.columns {
+  padding: 20px;
+    width: 373.168px;
+    height: 320.105px;
+    display: flex;
+    border-radius: 10px;
+    border: 4px solid rgba(0, 0, 0, 0.25);
+    background: linear-gradient(139deg, rgba(255, 255, 255, 0.04) -6.39%, rgba(143, 143, 143, 0.02) 112.17%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ 
+}
+.rectangle7{
+  border-radius: 20px;
+border: 2px solid rgba(255, 255, 255, 0.12);
+width: 1306px;
+height: 387px;
+display: flex;
+  justify-content: space-between;
+  padding: 20px;
+flex-shrink: 0;
+margin-top: 40px;
+}
+
+
+.rectangles7 {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  width: 1386px;
+  height: 668.858px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-shrink: 0;
+  margin-top: 53px;
+  align-items: center;
+  flex-direction: column;
+}
+.columone{
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+.column {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.column  h2 {
+ 
+    color: white;
+
+    font-family: Roc Grotesk;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+
+}
+.coluumns h2{
+  color: #FFF;
+font-family: Roc Grotesk;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+.column h3{
+  color: #FFF;
+font-family: Roc Grotesk;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: 190%; /* 43.7px */
+letter-spacing: 2.2px;
+}
+.column li{
+  color: #FFF;
+  font-family: Roc Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  list-style: none;
+  font-weight: 400;
+  line-height: 190%;
+  letter-spacing: 0.2px;
+
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+}
+
+input {
+  padding: 8px;
+  width: 375px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+background: rgba(136, 184, 255, 0.12);
+backdrop-filter: blur(67.5px);
+color: white;
+  margin-right: 10px;
+}
+@font-face {
+  font-family: 'Roc Grotesk';
+  src: url('./Demo_Fonts//Fontspring-DEMO-rocgrotesk-thin.otf') format('woff');
+  /* Add additional src lines for other font formats if needed */
+  /* Example:
+     src: url('YourFont.woff') format('woff'),
+          url('YourFont.woff2') format('woff2');
+  */
+}
+
+
+
+.arrow-left{
+  
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: linear-gradient(139deg, rgba(231, 20, 210, 0.81) -19.63%, rgba(17, 94, 209, 0.81) 126.85%);
+    backdrop-filter: blur(67.5px);    border: none;
+    color: white;
+    margin-left: 23%;
+    width: 15px;
+    position: absolute;
+    height: 15px;
+    flex-shrink: 0;
+    margin-top: 1%;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    /* height: 98vh; */
+    color: black;
+    top: 60px;
+    justify-content: space-between;
+    left: 0;
+    background-color: #440848;
+    /* width: 100%; */
+    display: none;
+}
+
+.nav-list.show {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+  .nav-list li {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-list {
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  color: black;
+  top: 60px;
+  left: 0;
+  /* width: 100%; */
+  
+  display: none;
+}
+
+ 
+  
+
+  .logo {
+      margin-bottom: 10px;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5em;
+  }
+  body{
+    margin: 0%;
+    padding: 0%;
+    width: min-content;
+  }
+  #Nfts{
+    font-size: 14px;
+  }
+  header{
+    width: 50%;
+  }
+  .columone {
+    display: flex;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.rectangle19 {
+  border-radius: 4px;
+  background: #152767;
+  width: 1066px;
+  display: flex;
+  margin-bottom: 50px;
+  height: 97px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: unset;
+}
+.arrow-left{
+  margin-top: 5%;
+  margin-left: 107%;
+}
+.rectangle7 {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-shrink: 0;
+  margin-left: 64px;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.logos{
+  
+    width: 120px;
+    height: 39px;
+    flex-shrink: 0;
+    padding-inline: 20px;
+
+}
+  .rectangles7 {
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    /* width: 50%; */
+    /* height: 668.858px; */
+    height: fit-content;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-shrink: 0;
+    margin-top: 53px;
+    align-items: center;
+    flex-direction: column;
+}
+  .galleryList{
+ 
+      width: 44%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      margin-left: 37px;
+      flex-direction: column;
+      color: #FFF;
+      text-align: center;
+      font-family: Roc Grotesk;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 7.7px;
+ 
+  }
+  .rectangle3{
+    display: block
+    ;
+    height: min-content;
+    padding-left: 10px;
+  }
+  .rectangle2 {
+    width: fit-content;
+    width: 50%;
+    height: 724px;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 69px;
+    /* flex-shrink: 0; */
+    background: rgba(2, 2, 27, 0.70);
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: fit-content;
+}
+.head1{
+  margin: 2px;
+}
+.image-list{
+flex-wrap: wrap;
+}
+section{
+  align-items: flex-start;
+}
+  .head2 {
+
+margin: 10px;    color: #FFF;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+  .chooseArt{
+    
+    color: #fff;
+    text-align: center;
+    font-family: 'Roc Grotesk', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;
+    letter-spacing: 7.7px;
+  }
+}
+.menu-icon {
+  display: none;
+}
