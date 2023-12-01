@@ -1,9 +1,59 @@
-body {
-  margin: 0;
-  
-  background: linear-gradient(70deg, #380333ed 0%, #7b0a7e 100%);
-  font-family: 'Arial', sans-serif;
+
+.goat{
+  color: #FF56F6;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1936px;
+  background: linear-gradient(195deg, #030e37 -7.58%, rgb(22 3 92) 116.18%);
+  filter: blur(328px);
+  backdrop-filter: blur(20px);
+  z-index: -1;
 }
+body{
+  overflow-x: hidden;
+}
+.menu-icon{
+  display: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1108px;
+  background: linear-gradient(182deg, rgba(231, 20, 210, 0.66) -7.58%, rgba(17, 94, 209, 0.66) 116.18%);
+  filter: blur(328px);
+  backdrop-filter: blur(20px); /* Glassmorphism effect */
+  z-index: -1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1936px;
+  background: linear-gradient(195deg, #030e37 -7.58%, rgb(22 3 92) 116.18%);
+  filter: blur(328px);
+  backdrop-filter: blur(20px);
+  z-index: -1;
+}
+
 
 .navbar {
   background: rgba(35, 26, 26, 0.69); /* Use rgba for transparency */
@@ -61,11 +111,11 @@ body {
 #headercontent {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 103px;
+  font-size: 123px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 7.7px;
-  background: linear-gradient(180deg, #e714d280 0%, #115ed180);
+  background: linear-gradient(124deg, #e714d2 0%, #2311d185);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -120,9 +170,9 @@ body {
 }
 
 .want {
-  color: #e714d2;
+  color: #c715ff;
   font-family: 'Roc Grotesk', sans-serif;
-  font-size: 47px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 175%;
@@ -527,7 +577,15 @@ button:hover {
     /* width: 100%; */
     display: none;
 }
+.NFT{
+  width: 100%;
+  height: 100%;
 
+}
+.rectangle7{
+
+}
+.NFT img
 .nav-list.show {
   display: flex;
   height: fit-content;
@@ -588,9 +646,7 @@ button:hover {
   #Nfts{
     font-size: 14px;
   }
-  header{
-    width: 50%;
-  }
+ 
   .columone {
     display: flex;
     row-gap: 30px;
@@ -599,46 +655,83 @@ button:hover {
     flex-direction: column;
 }
 .rectangle19 {
-  border-radius: 4px;
-  background: #152767;
-  width: 1066px;
-  display: flex;
-  margin-bottom: 50px;
-  height: 97px;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: unset;
+    border-radius: 4px;
+    background: #152767;
+    width: 500px;
+    display: flex;
+    margin-bottom: 50px;
+    height: 97px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.btndiv {
+    width: 50%;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 51px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 5px solid #E714D2;
+    align-items: center;
+    justify-content: center;
 }
 .arrow-left{
-  margin-top: 5%;
-  margin-left: 107%;
+ 
+    margin-top: 5%;
+    margin-left: 73%;
+
+}
+input {
+    padding: 8px;
+    width: 368px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(136, 184, 255, 0.12);
+    backdrop-filter: blur(67.5px);
+    color: white;
+    margin-right: 10px;
 }
 .rectangle7 {
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.12);
-  width: 500px;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  flex-shrink: 0;
-  margin-left: 64px;
-  margin-top: 40px;
-  flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-shrink: 0;
+    /* margin-left: 64px; */
+    margin-top: 40px;
+    flex-direction: column;
+}
+.column {
+    flex: 1;
+    margin: 0 10px;
+    width: 66%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .logos{
   
-    width: 120px;
-    height: 39px;
+ 
+    width: 76px;
+    height: 32px;
     flex-shrink: 0;
     padding-inline: 20px;
+
 
 }
   .rectangles7 {
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.12);
     background: rgba(255, 255, 255, 0.04);
-    /* width: 50%; */
+    width: 70%;
     /* height: 668.858px; */
     height: fit-content;
     flex-shrink: 0;
@@ -675,7 +768,6 @@ button:hover {
   }
   .rectangle2 {
     width: fit-content;
-    width: 50%;
     height: 724px;
     /* display: flex; */
     flex-direction: column;
@@ -712,10 +804,7 @@ margin: 10px;    color: #FFF;
     font-size: 26px;
     font-style: normal;
     font-weight: 500;
-    line-height: 0%;
+    line-height: 2;
     letter-spacing: 7.7px;
   }
 }
-.menu-icon {
-  display: none;
-}git 
